@@ -1,0 +1,236 @@
+/* Home/Lista */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: flex-start;
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 115, 0);
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #283A3C;
+  }
+
+  .home {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 30px;
+    gap: 30px;
+    background-color: rgba(255, 115, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.subt {
+    font-size:35px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.txt {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+}
+
+.etc {
+    background-color: rgba(255, 115, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+  
+/* Contato */
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 115, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  label{
+    display: inline-flex;
+    margin-right: 20px;
+    font-weight: 500;
+  }
+  
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+/* Curriculo */
+
+.curriculo {
+  background-color: rgba(255, 115, 0, 0.7);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.downcurriculo {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.downcurriculo:hover{
+  background-color: #2980b9;
+}
+
+/* Github */
+
+.github {
+  background-color: rgba(255, 115, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.imggit{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.linkgit {
+  display:flex;
+  justify-content: center;
+  padding: 5px; 
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.linkgit:hover{
+  background-color: #2980b9;
+}
+
+/* Servicos */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+thead tr:first-child th {
+  background-color: #ff7300;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+thead tr:nth-child(2) th {
+  background-color: #ffa54c;
+  color: white;
+}
+
+
